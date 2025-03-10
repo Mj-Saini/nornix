@@ -41,9 +41,9 @@ const Header = () => {
               <div key={index} className="relative">
                 <Link
                   to={tab.path}
-                  className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 ${
+                  className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 hover:text-[#09C9EF] ${
                     location.pathname === tab.path
-                      ? "!text-[#53F3FB]"
+                      ? "!text-[#09C9EF]"
                       : "text-white"
                   }`}
                 >
