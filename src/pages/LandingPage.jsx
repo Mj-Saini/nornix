@@ -41,13 +41,13 @@ const LandingPage = () => {
                 business seeking automation, or a developer wanting to scale AI
                 solutions, our tools empower you at every step.{" "}
               </p>
-              <p className="text-base font-thin text-[#B0B0B0] ff_microsoft  pt-5">
+              <p className="text-base font-thin text-[#B0B0B0] ff_microsoft  pt-5 relative z-[1]">
                 With an intuitive interface, seamless integrations, and
                 enterprise-level security, you can effortlessly bring your AI
                 ideas to life and turn them into profitable solutions.
               </p>
               <img
-                className="w-full sm:w-7/12 lg:w-full mx-auto"
+                className="w-full sm:w-7/12 lg:w-full mx-auto md:scale-140 mix-blend-color-dodge md:mt-10"
                 src={weOfferImg}
                 alt="what we offer"
               />
@@ -64,6 +64,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* SERVICES */}
       <section className="py-12 md:py-14">
         <div className="custom_container">
           <div className="flex flex-wrap justify-between">
@@ -113,6 +115,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* OUR PLATFORM */}
 
       <section className="py-12 md:py-14">
         <div className="custom_container">

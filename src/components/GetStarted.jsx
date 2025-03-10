@@ -24,9 +24,9 @@ const GetStarted = () => {
               <CommonBtn btnName={"Get started"} />
             </div>
           </div>
-          <div className="w-full sm:w-7/12 md:w-5/12 mx-auto">
+          <div className="w-full sm:w-7/12 md:w-5/12 mx-auto overflow-clip">
             <img
-              className="w-full -rotate-90"
+              className="w-full -rotate-90 mix-blend-color-dodge md:scale-125"
               src={getStartedImg}
               alt="started-img"
             />

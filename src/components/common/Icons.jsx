@@ -1,6 +1,7 @@
 export const ExtensionIcon = () => {
   return (
     <svg
+      className="w-10 md:w-[72px]"
       width="72"
       height="72"
       viewBox="0 0 72 72"

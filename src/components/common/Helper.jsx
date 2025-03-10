@@ -17,3 +17,5 @@ export const headerData = [
     path: "/contacts-us",
   },
 ];
+
+export const slideWords = ["Customise", "Create", "commercialize"];
