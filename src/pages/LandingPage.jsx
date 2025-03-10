@@ -148,7 +148,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      {/* <Benifits /> */}
+      <Benifits />
       <GetStarted />
       <Footer />
     </div>
