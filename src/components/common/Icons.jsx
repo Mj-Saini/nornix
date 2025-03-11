@@ -132,7 +132,6 @@ export const AutomationIcon = () => {
 };
 
 export const BenifitsSvgBox1 = () => {
-  
   return (
     <svg
       className="!w-full"
@@ -153,7 +152,8 @@ export const BenifitsSvgBox1 = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="100%" stopColor="#ff00ff" />
+          <stop offset="50%" stopColor="#9747FF" />
+          <stop offset="100%" stopColor="#220589" />
         </linearGradient>
       </defs>
       <path
@@ -181,8 +181,8 @@ export const BenifitsSvgBox2 = () => {
         {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#FF5733" />
-          <stop offset="100%" stopColor="#33FF57" />
+          <stop offset="50%" stopColor="#9747FF" />
+          <stop offset="100%" stopColor="#220589" />
         </linearGradient>
       </defs>
 
@@ -216,8 +216,8 @@ export const BenifitsSvgBox3 = () => {
         {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#FF5733" />
-          <stop offset="100%" stopColor="#33FF57" />
+          <stop offset="50%" stopColor="#9747FF" />
+          <stop offset="100%" stopColor="#220589" />
         </linearGradient>
       </defs>
       <path
@@ -258,8 +258,8 @@ export const BenifitsSvgBox5 = () => {
         {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#FF5733" />
-          <stop offset="100%" stopColor="#33FF57" />
+          <stop offset="50%" stopColor="#9747FF" />
+          <stop offset="100%" stopColor="#220589" />
         </linearGradient>
       </defs>
       <path
@@ -290,8 +290,8 @@ export const BenifitsSvgBox4 = () => {
         {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#FF5733" />
-          <stop offset="100%" stopColor="#33FF57" />
+          <stop offset="50%" stopColor="#9747FF" />
+          <stop offset="100%" stopColor="#220589" />
         </linearGradient>
       </defs>
       <path

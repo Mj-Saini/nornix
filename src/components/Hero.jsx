@@ -3,7 +3,7 @@ import CommonBtn from "./common/CommonBtn";
 import heroBgImg from "../assets/images/png/hero-bg.png";
 import { slideWords } from "./common/Helper";
 
-const colors = ["#09C9EF", "#FF5733", "#33FF57"];
+const colors = ["#09C9EF", "#9747FF", "#089F19"];
 const Hero = () => {
   const [index, setIndex] = useState(0);
 
@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div className="h-[calc(100vh-88px)] flex flex-col overflow-hidden relative">
       <img
-        className="mix-blend-color-dodge absolute top-7/12 -translate-y-1/2 right-[44%] translate-x-1/2 w-[90%] max-w-[1296px]"
+        className="mix-blend-color-dodge absolute top-0 lg:top-7/12 lg:-translate-y-1/2 right-[44%] translate-x-1/2 w-[90%] max-w-[1296px]"
         src={heroBgImg}
         alt="bg-img"
       />

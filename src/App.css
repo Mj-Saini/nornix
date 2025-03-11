@@ -48,7 +48,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #07a9cc;
 }
-.group:hover path {
+#benifits .group:hover path {
   stroke: url(#gradientStroke);
 }
 /*  WORD SLIDER */
@@ -84,7 +84,7 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
   }
