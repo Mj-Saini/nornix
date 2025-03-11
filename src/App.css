@@ -48,7 +48,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #07a9cc;
 }
-
+.group:hover path {
+  stroke: url(#gradientStroke);
+}
 /*  WORD SLIDER */
 
 @keyframes slideUp {

@@ -21,7 +21,6 @@ const LandingPage = () => {
     vertical: false,
     verticalSwiping: false,
     autoplay: true,
-    autoplaySpeed: 3000,
     adaptiveHeight: true,
   };
   return (

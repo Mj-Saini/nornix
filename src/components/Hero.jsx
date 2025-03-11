@@ -14,9 +14,9 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="h-[calc(100vh-88px)] flex flex-col hero_ bg_img">
+    <div className="h-[calc(100vh-88px)] flex flex-col overflow-hidden relative">
       <img
-        className="mix-blend-color-dodge absolute top-7/12 -translate-y-1/2 right-0 w-[90%]"
+        className="mix-blend-color-dodge absolute top-7/12 -translate-y-1/2 right-[44%] translate-x-1/2 w-[90%] max-w-[1296px]"
         src={heroBgImg}
         alt="bg-img"
       />
