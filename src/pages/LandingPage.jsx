@@ -73,7 +73,7 @@ const LandingPage = () => {
               Services
             </h2>
 
-            <div className="mt-6 md:mt-10 xl:mt-20">
+            <div className="mt-6 md:mt-10 xl:mt-20 w-full h-full">
               <Slider {...settings}>
                 {[1, 1].map((value, index) => (
                   <div key={index} className="relative">

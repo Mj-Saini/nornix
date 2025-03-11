@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import bgc_img1 from "../assets/images/png/bgc_img1.png";
 import bgc_img2 from "../assets/images/png/bgc_img2.png";
@@ -14,7 +12,7 @@ import five from "../assets/images/png/five.png";
 
 const Benifits = () => {
   return (
-    <div className=" min-h-screen relative">
+    <div className=" min-h-screen relative overflow-clip">
       <span className="absolute flex rounded-[50%] w-full h-full bg-[#09c9ef27]  blur-[500px] top-0 z-0"></span>
 
       <div className="custom_container px-3 mx-auto">
@@ -40,10 +38,10 @@ const Benifits = () => {
 
               <div class="box box2 relative flex justify-center items-center">
                 <img src={bgc_img2} alt="bgc img" className="w-full" />
-                <p className="absolute lg:top-[40%] md:top-[35%] top-[20%] lg:right-[10px] right-[10px]  xl:text-[18px] sm:text-[16px] text-[14px] w-[65%] md:w-[66%] lg:w-[80%]  leading-[110%] text-white p x-9">
+                <p className="absolute lg:top-[40%] md:top-[35%] top-[20%] lg:right-[-20px] right-[10px]  xl:text-[18px] sm:text-[16px] text-[14px] w-[65%] md:w-[66%] lg:w-[80%]  leading-[110%] text-white p x-9">
                   Access cutting-edge technology
                 </p>
-                <p className="absolute  md:bottom-[38%] bottom-[35%] lg:left-[20px] left-[30px] xl:text-[18px] sm:text-[16px] text-[14px] xl:w-[98%] leading-[110%] text-white md:w-[60%] w-[70%] lg:w-[90%]">
+                <p className="absolute  md:bottom-[40%] bottom-[35%] lg:left-[20px] left-[40px] xl:text-[18px] sm:text-[16px] text-[14px] xl:w-[98%] leading-[110%] text-white md:w-[60%] w-[70%] lg:w-[90%]">
                   without costly investments.
                 </p>
                 <img
@@ -67,11 +65,11 @@ const Benifits = () => {
                 />
               </div>
               <div class="box box4 relative flex justify-center items-center">
-                <img src={bgc_img4} alt="bgc img" />
-                <p className="absolute lg:top-[30%] md:top-[35%] top-[30%] w-[60%] md:w-[90%] sm:left-[60px] left-[40px] lg:left-[10px] xl:text-[18px] sm:text-[16px] text-[12px] leading-[110%]  xl:w-[80%] text-white ">
+                <img className="w-full" src={bgc_img4} alt="bgc img" />
+                <p className="absolute lg:top-[39%] md:top-[35%] top-[30%] w-[60%] md:w-[90%] sm:left-[60px] left-[40px] lg:left-[10px] xl:text-[18px] sm:text-[16px] text-[12px] leading-[110%]  xl:w-[80%] text-white ">
                   Get technical support and join a
                 </p>
-                <p className="absolute lg:bottom-[30%] bottom-[25%] lg:right-[30px] right-[60px] xl:text-[18px] sm:text-[16px] leading-[110%] text-sm text-end lg:w-[65%] w-[50%] text-white ">
+                <p className="absolute lg:bottom-[30%] bottom-[25%] lg:right-[22px] right-[60px] xl:text-[18px] sm:text-[16px] leading-[110%] text-sm text-end lg:w-[65%] w-[50%] text-white ">
                   community of experts ready to help you improve your agents.
                 </p>
 
