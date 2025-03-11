@@ -56,7 +56,7 @@ const LandingPage = () => {
             <div className="w-full lg:w-8/12 lg:ps-10 xl:ps-16">
               <div className="flex flex-wrap">
                 {[1, 1, 1, 1, 1, 1].map((items, index) => (
-                  <div key={index} className="w-full sm:w-1/2 mt-5 sm:px-2.5">
+                  <div key={index} className="w-full sm:w-1/2 mt-5 sm:px-2.5 group">
                     <WhatWeOfferCard />
                   </div>
                 ))}
