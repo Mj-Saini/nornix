@@ -18,10 +18,11 @@ const LandingPage = () => {
     slidesToShow: 1,
     arrows: false,
     slidesToScroll: 1,
-    vertical: true,
-    verticalSwiping: true,
-    // autoplay: true,
+    vertical: false,
+    verticalSwiping: false,
+    autoplay: true,
     autoplaySpeed: 3000,
+    adaptiveHeight: true,
   };
   return (
     <div>
@@ -73,10 +74,10 @@ const LandingPage = () => {
               Services
             </h2>
 
-            <div className="mt-6 md:mt-10 xl:mt-20 w-full h-full">
+            <div className="mt-6 md:mt-10 xl:mt-20 w-full h-full ">
               <Slider {...settings}>
                 {[1, 1].map((value, index) => (
-                  <div key={index} className="relative">
+                  <div key={index} className="relative h-full  px-2">
                     <div className="absolute w-full h-full bottom-[105px] left-0 flex items-end justify-center">
                       <div>
                         <h2 className="ff_mocrosoft font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center">
