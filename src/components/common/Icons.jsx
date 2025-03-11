@@ -142,18 +142,32 @@ export const BenifitsSvgBox1 = () => {
       preserveAspectRatio="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <defs className="hidden group-hover:block">
-        <linearGradient
-          id="gradientBorder"
-          x1="0"
-          y1="0"
-          x2="388"
-          y2="198"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#9747FF" />
-          <stop offset="100%" stopColor="#220589" />
+      <defs>
+        <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#09C9EF">
+            <animate
+              attributeName="stop-color"
+              values="#09C9EF;#9747FF;#220589;#09C9EF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="50%" stopColor="#9747FF">
+            <animate
+              attributeName="stop-color"
+              values="#9747FF;#220589;#09C9EF;#9747FF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="100%" stopColor="#220589">
+            <animate
+              attributeName="stop-color"
+              values="#220589;#09C9EF;#9747FF;#220589"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
         </linearGradient>
       </defs>
       <path
@@ -166,6 +180,7 @@ export const BenifitsSvgBox1 = () => {
     </svg>
   );
 };
+
 export const BenifitsSvgBox2 = () => {
   return (
     <svg
@@ -175,20 +190,37 @@ export const BenifitsSvgBox2 = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="none"
-      className="transition-all duration-300 !w-full"
+      className="transition-all duration-300 !w-full group"
     >
       <defs>
-        {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#9747FF" />
-          <stop offset="100%" stopColor="#220589" />
+          <stop offset="0%" stopColor="#09C9EF">
+            <animate
+              attributeName="stop-color"
+              values="#09C9EF;#9747FF;#220589;#09C9EF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="50%" stopColor="#9747FF">
+            <animate
+              attributeName="stop-color"
+              values="#9747FF;#220589;#09C9EF;#9747FF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="100%" stopColor="#220589">
+            <animate
+              attributeName="stop-color"
+              values="#220589;#09C9EF;#9747FF;#220589"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
         </linearGradient>
       </defs>
-
-      {/* ✅ Main Shape with Gradient Stroke on Hover */}
       <path
-        data-figma-bg-blur-radius="50"
         fillRule="evenodd"
         clipRule="evenodd"
         d="M30 82.2377C13.4314 82.2377 0 95.6691 0 112.238V168C0 184.569 13.4315 198 30 198H243C259.569 198 273 184.569 273 168V142.762C273 126.194 286.431 112.762 303 112.762H358C374.569 112.762 388 99.3309 388 82.7623V30C388 13.4315 374.569 0 358 0H131.775C115.207 0 101.775 13.4315 101.775 30V52.2377C101.775 68.8062 88.3439 82.2377 71.7753 82.2377H30Z"
@@ -196,11 +228,13 @@ export const BenifitsSvgBox2 = () => {
         fillOpacity="0.1"
         stroke="transparent"
         strokeWidth="3"
+        strokeDashoffset="10"
         className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-300"
       />
     </svg>
   );
 };
+
 export const BenifitsSvgBox3 = () => {
   return (
     <svg
@@ -212,14 +246,32 @@ export const BenifitsSvgBox3 = () => {
       preserveAspectRatio="none"
       className="transition-all duration-300 !w-full"
     >
-      <defs>
-        {/* ✅ Define Linear Gradient */}
-        <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#9747FF" />
-          <stop offset="100%" stopColor="#220589" />
-        </linearGradient>
-      </defs>
+      <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stopColor="#09C9EF">
+          <animate
+            attributeName="stop-color"
+            values="#09C9EF;#9747FF;#220589;#09C9EF"
+            dur="2s"
+            repeatCount="indefinite"
+          />
+        </stop>
+        <stop offset="50%" stopColor="#9747FF">
+          <animate
+            attributeName="stop-color"
+            values="#9747FF;#220589;#09C9EF;#9747FF"
+            dur="2s"
+            repeatCount="indefinite"
+          />
+        </stop>
+        <stop offset="100%" stopColor="#220589">
+          <animate
+            attributeName="stop-color"
+            values="#220589;#09C9EF;#9747FF;#220589"
+            dur="2s"
+            repeatCount="indefinite"
+          />
+        </stop>
+      </linearGradient>
       <path
         className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-300"
         data-figma-bg-blur-radius="50"
@@ -255,11 +307,31 @@ export const BenifitsSvgBox5 = () => {
       className="transition-all duration-300 !w-full"
     >
       <defs>
-        {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#9747FF" />
-          <stop offset="100%" stopColor="#220589" />
+          <stop offset="0%" stopColor="#09C9EF">
+            <animate
+              attributeName="stop-color"
+              values="#09C9EF;#9747FF;#220589;#09C9EF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="50%" stopColor="#9747FF">
+            <animate
+              attributeName="stop-color"
+              values="#9747FF;#220589;#09C9EF;#9747FF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="100%" stopColor="#220589">
+            <animate
+              attributeName="stop-color"
+              values="#220589;#09C9EF;#9747FF;#220589"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
         </linearGradient>
       </defs>
       <path
@@ -287,11 +359,31 @@ export const BenifitsSvgBox4 = () => {
       className="!w-full"
     >
       <defs>
-        {/* ✅ Define Linear Gradient */}
         <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#09C9EF" />
-          <stop offset="50%" stopColor="#9747FF" />
-          <stop offset="100%" stopColor="#220589" />
+          <stop offset="0%" stopColor="#09C9EF">
+            <animate
+              attributeName="stop-color"
+              values="#09C9EF;#9747FF;#220589;#09C9EF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="50%" stopColor="#9747FF">
+            <animate
+              attributeName="stop-color"
+              values="#9747FF;#220589;#09C9EF;#9747FF"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
+          <stop offset="100%" stopColor="#220589">
+            <animate
+              attributeName="stop-color"
+              values="#220589;#09C9EF;#9747FF;#220589"
+              dur="2s"
+              repeatCount="indefinite"
+            />
+          </stop>
         </linearGradient>
       </defs>
       <path
