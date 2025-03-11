@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { ExtensionIcon } from "./common/Icons";
 
 const WhatWeOfferCard = () => {
+  const [isHovered, setIsHovered] = useState(false);
   return (
-    <div className="border border-[#09C9EF]/15 rounded-[15px] p-5 xl:py-[30px] xl:px-8 bg-[#212121]/5 blur-[1.5px] group-hover:border-[#09C9EF] group-hover:bg-[#242424] group-hover:blur-[0] active:blur-0  duration-300 will-change-transform will-change-filter">
+    <div
+      className={` border border-[#09C9EF]/15 rounded-[15px] p-5 xl:py-[30px] xl:px-8 bg-[#212121]/5 blur-[1.5px] group-hover:border-[#09C9EF] group-hover:bg-[#242424] group-hover:blur-[0] active:blur-0  duration-300 will-change-transform will-change-filter ${
+        isHovered
+          ? "bg-[#242424] blur-0 border-[#09C9EF]"
+          : "bg-[#212121]/5 blur-[1.5px]"
+      } `}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={() => setIsHovered(true)} // Mobile Fix
+      onTouchEnd={() => setIsHovered(false)} // Mobile Fix
+    >
       <span>
         <ExtensionIcon />
       </span>
