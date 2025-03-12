@@ -33,7 +33,7 @@ const Benifits = () => {
             <div className="grid-container mt-6 md:mt-10 xl:mt-20">
               <div className="box box1 relative flex justify-center items-center group">
                 <BenifitsSvgBox1 />
-                <p className="absolute max-sm:top-[42%] top-[30%] xl:text-[18px] sm:text-[17px] text-[13px] leading-[110%] text-white xl:px-9 px-4 w-[90%]">
+                <p className="absolute max-sm:top-[42%] top-[30%] xl:text-[18px] sm:text-[17px] text-[13px] leading-[110%] text-white xl:px-9 px-4 w-[90%] ff_assistant">
                   Expand your reach and monetize your AI creativity with our
                   marketplace.
                 </p>
@@ -46,10 +46,10 @@ const Benifits = () => {
 
               <div className="box box2 relative flex justify-center items-center group">
                 <BenifitsSvgBox2 />
-                <p className="absolute lg:top-[40%] md:top-[35%] top-[20%] lg:right-[-20px] right-[10px]  xl:text-[18px] sm:text-[16px] text-[14px] sm:w-[65%] md:w-[66%] lg:w-[80%]  max-sm:top-[33%]  max-sm:w-[70%] leading-[110%] text-white p x-9">
+                <p className="absolute lg:top-[40%] md:top-[35%] top-[20%] lg:right-[-20px] right-[10px]  xl:text-[18px] sm:text-[16px] text-[14px] sm:w-[65%] md:w-[66%] lg:w-[80%]  max-sm:top-[33%]  max-sm:w-[70%] leading-[110%] text-white p x-9 ff_assistant">
                   Access cutting-edge technology
                 </p>
-                <p className="absolute max-sm:bottom-[42%]  md:bottom-[40%] bottom-[35%] lg:left-[20px] left-[40px] xl:text-[18px] sm:text-[16px] text-[14px] xl:w-[98%] leading-[110%] text-white md:w-[60%] w-[70%] lg:w-[90%]">
+                <p className="absolute max-sm:bottom-[42%]  md:bottom-[40%] bottom-[35%] lg:left-[20px] left-[40px] xl:text-[18px] sm:text-[16px] text-[14px] xl:w-[98%] leading-[110%] text-white md:w-[60%] w-[70%] lg:w-[90%] ff_assistant">
                   without costly investments.
                 </p>
                 <img
@@ -61,23 +61,23 @@ const Benifits = () => {
 
               <div className="box box3 relative flex justify-center items-center group">
                 <BenifitsSvgBox3 />
-                <p className="absolute top-[20%] xl:top-[30%] sm:text-[18px] text-[14px]  leading-[110%] text-end xl:w-[80%] text-white xl:px-0 px-5 max-sm:top-[35%]">
+                <p className="absolute top-[20%] xl:top-[30%] sm:text-[18px] text-[14px]  leading-[110%] text-end xl:w-[80%] text-white xl:px-0 px-5 max-sm:top-[35%] ff_assistant">
                   Connect with businesses looking for smart solutions for their
                   operations.
                 </p>
 
                 <img
-                  className="absolute sm:w-[63px] sm:h-[57px] w-[50px] h-[50px] xl:bottom-[10px] md:bottom-[10px] bottom-0 lg:left-[30px] md:left-[30px] left-[10px]"
+                  className="absolute sm:w-[63px] sm:h-[57px] w-[50px] h-[50px] xl:bottom-[10px] md:bottom-[10px] bottom-0 lg:left-[30px] md:left-[30px] left-[10px] ff_assistant"
                   src={three}
                   alt="bgc img"
                 />
               </div>
               <div className="box box4 relative flex justify-center items-center group">
                 <BenifitsSvgBox4 />
-                <p className="absolute lg:top-[39%] md:top-[35%] top-[30%] w-[60%] md:w-[90%] sm:left-[60px] left-[40px] lg:left-[10px] xl:text-[18px] sm:text-[16px] text-[12px] leading-[110%]  xl:w-[80%] text-white max-sm:top-[45%]">
+                <p className="absolute lg:top-[39%] md:top-[35%] top-[30%] w-[60%] md:w-[90%] sm:left-[60px] left-[40px] lg:left-[10px] xl:text-[18px] sm:text-[16px] text-[12px] leading-[110%]  xl:w-[80%] text-white max-sm:top-[45%] ff_assistant">
                   Get technical support and join a
                 </p>
-                <p className="absolute lg:bottom-[30%] bottom-[25%] max-sm:right-[5%] lg:right-[22px] right-[60px] xl:text-[18px] sm:text-[16px] leading-[110%] text-sm text-end lg:w-[65%] w-[50%] max-sm:w-[65%] text-white ">
+                <p className="absolute lg:bottom-[30%] bottom-[25%] max-sm:right-[5%] lg:right-[22px] right-[60px] xl:text-[18px] sm:text-[16px] leading-[110%] text-sm text-end lg:w-[65%] w-[50%] max-sm:w-[65%] text-white ff_assistant">
                   community of experts ready to help you improve your agents.
                 </p>
 
@@ -89,7 +89,7 @@ const Benifits = () => {
               </div>
               <div className="box box5 relative  flex justify-center items-center group">
                 <BenifitsSvgBox5 />
-                <p className="absolute top-[30%] righ t-[30px] xl:text-[18px] sm:text-[17px] text-sm  leading-[110%] text-center xl:w-[90%] text-white px-3 lg:px-0">
+                <p className="absolute top-[30%] righ t-[30px] xl:text-[18px] sm:text-[17px] text-sm  leading-[110%] text-center xl:w-[90%] text-white px-3 lg:px-0 ff_assistant">
                   Receive constant updates with new features and AI development
                   improvements.
                 </p>

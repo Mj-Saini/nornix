@@ -11,32 +11,32 @@ const Footer = () => {
         <div className="flex flex-wrap py-10">
           <div className="w-full lg:w-4/12 sm:px-2.5">
             <img src={footerLogo} alt="logo" />
-            <p className="font-normal text-sm text-[#B0B0B0] mt-3">
+            <p className="font-normal text-sm text-[#B0B0B0] mt-3 ff_assistant">
               Building the future of AI, one intelligent agent at a time.
             </p>
           </div>
           <div className="w-full lg:w-8/12 mt-6 lg:mt-0">
             <div className="flex flex-wrap justify-between">
               <div className="w-4/12 sm:w-2/12 sm:px-2.5">
-                <h3 className="font-normal text-base text-[#E0E0E0]">
+                <h3 className="font-normal text-base text-[#E0E0E0] ff_assistant">
                   Navigation
                 </h3>
                 <div className="flex flex-col gap-2 md:gap-5 mt-2 md:mt-5">
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     About Us
                   </Link>
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Services
                   </Link>
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Contact
                   </Link>
@@ -49,13 +49,13 @@ const Footer = () => {
                 <div className="flex flex-col gap-2 md:gap-5 mt-2 md:mt-5">
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Sign Up/Log In
                   </Link>
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     FAQs
                   </Link>
@@ -66,13 +66,13 @@ const Footer = () => {
                 <div className="flex flex-col gap-2 md:gap-5 mt-2 md:mt-5">
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Terms of Service
                   </Link>
                   <Link
                     to={"/"}
-                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300"
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Privacy Policy
                   </Link>

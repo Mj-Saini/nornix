@@ -41,7 +41,7 @@ const Header = () => {
               <div key={index} className="relative">
                 <Link
                   to={tab.path}
-                  className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 hover:text-[#09C9EF] ${
+                  className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 hover:text-[#09C9EF] ff_assistant ${
                     location.pathname === tab.path
                       ? "!text-[#09C9EF]"
                       : "text-white"

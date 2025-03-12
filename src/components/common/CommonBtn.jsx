@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -27,7 +24,7 @@ const CommonBtn = ({ btnName }) => {
   return (
     <Link
       to={"/"}
-      className={`relative font-normal text-base text-white rounded-full border-[0.8px] border-[#09C9EF] px-5 py-3 md:py-4.5 inline-block w-[150px] md:w-[196px] ff_microsoft capitalize duration-300 transform origin-left transition-transform ease-out overflow-hidden ${
+      className={`relative font-normal text-base text-white rounded-full border-[0.8px] border-[#09C9EF] px-5 py-3 md:py-4.5 inline-block w-[150px] md:w-[196px] ff_assistant capitalize duration-300 transform origin-left transition-transform ease-out overflow-hidden ${
         isHovered ? "scale-x-110" : "scale-x-100"
       }`}
       onMouseEnter={handleMouseEnter}
@@ -50,5 +47,3 @@ const CommonBtn = ({ btnName }) => {
 };
 
 export default CommonBtn;
-
-

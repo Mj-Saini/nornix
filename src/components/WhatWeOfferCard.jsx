@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ExtensionIcon } from "./common/Icons";
 
-const WhatWeOfferCard = () => {
+const WhatWeOfferCard = ({ mapData }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
@@ -12,18 +12,17 @@ const WhatWeOfferCard = () => {
       } `}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onTouchStart={() => setIsHovered(true)} 
-      onTouchEnd={() => setIsHovered(false)} 
+      onTouchStart={() => setIsHovered(true)}
+      onTouchEnd={() => setIsHovered(false)}
     >
       <span>
         <ExtensionIcon />
       </span>
       <h2 className="font-bold text-lg md:text-xl text-[#fff] my-3 md:my-[22px]">
-        AI Agent Generation
+        {mapData.heading}
       </h2>
-      <p className="font-light text-base text-[#B0B0B0]">
-        Design and train artificial intelligence agents for various
-        applications, from customer service to task automation.
+      <p className="font-light text-base text-[#B0B0B0] ff_assistant">
+        {mapData.descriptions}
       </p>
     </div>
   );

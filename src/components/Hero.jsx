@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="custom_container">
             <div className="flex flex-wrap py-4 md:p-4 items-center">
               <div className="w-full lg:w-1/2">
-                <h2 className="font-normal text-xl md:text-2xl text-[#B0B0B0] ff_microsoft relative">
+                <h2 className="font-normal text-xl md:text-2xl text-[#B0B0B0] ff_assistant relative">
                   AI Agents with Our Platform -{" "}
                   <span
                     key={index}
@@ -51,7 +51,7 @@ const Hero = () => {
                 </h2>
               </div>
               <div className="w-full lg:w-1/2 mt-5 lg:mt-0">
-                <p className="ff_microsoft font-light text-xs sm:text-base tracking-[0.5px] !text-[#DFDFDF]">
+                <p className="ff_assistant font-light text-xs sm:text-base tracking-[0.5px] !text-[#DFDFDF]">
                   At NORNIX, we revolutionize the way businesses and
                   entrepreneurs access Artificial Intelligence. Our platform
                   allows you to create, customize, and sell AI agents designed

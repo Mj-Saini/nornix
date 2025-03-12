@@ -14,7 +14,7 @@ const GetStarted = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-white">
               Get Started Today
             </h2>
-            <p className="font-light ff_microsoft text-base text-[#B0B0B0] mt-1 md:mt-5 lg:mt-10">
+            <p className="font-light ff_assistant text-base text-[#B0B0B0] mt-1 md:mt-5 lg:mt-10">
               Sign up and start creating your first AI agent in minutes. Explore
               the limitless power of artificial intelligence and take your
               business to the next level. Join NORNIX today and be a part of the
