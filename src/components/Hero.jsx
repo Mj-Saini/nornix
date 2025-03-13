@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div className="h-[calc(100vh-88px)] flex flex-col overflow-hidden relative">
       <img
-        className="mix-blend-color-dodge absolute top-0 lg:top-7/12 lg:-translate-y-1/2 right-[44%] translate-x-1/2 w-[90%] max-w-[1296px]"
+        className="mix-blend-color-dodge absolute top-0 lg:top-7/12 lg:-translate-y-1/2 right-2 md:right-[44%] md:translate-x-1/2 w-full md:w-[90%] max-w-[1296px]"
         src={heroBgImg}
         alt="bg-img"
       />
