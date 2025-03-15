@@ -91,12 +91,12 @@ const ScrollAnimation = () => {
         >
           {/* 🔹 Image with Scale Effect */}
           <img
-            className="w-full h-[100%] sm:h-auto object-cover rounded-[37px]"
+            className="w-full h-[50%] sm:h-auto object-cover rounded-[37px]"
             src={value.img}
             alt="service-img"
           />
 
-          <div className="content-overlay absolute bottom-[160px] md:bottom-[135px] left-0 w-full h-full flex items-end justify-center z-10">
+          <div className="content-overlay absolute bottom-[180px] md:bottom-[135px] left-0 w-full h-full flex items-end justify-center z-10">
             <div className="text-center">
               <h2 className="ff_mocrosoft font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white ff_assistant">
                 {value.agentProcess}
