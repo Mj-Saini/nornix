@@ -91,7 +91,7 @@ const ScrollAnimation = () => {
         >
           {/* 🔹 Image with Scale Effect */}
           <img
-            className="w-full h-[70%] sm:h-auto object-cover rounded-[37px]"
+            className="w-full h-[100%] sm:h-auto object-cover rounded-[37px]"
             src={value.img}
             alt="service-img"
           />
