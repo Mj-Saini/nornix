@@ -1,5 +1,3 @@
-
-
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -29,7 +27,7 @@ const ScrollAnimation = () => {
               ? "bottom bottom"
               : `top+=${section.offsetHeight} top`,
             pin: true,
-            pinSpacing: false,
+            pinSpacing: true,
             scrub: 1,
           },
         });
