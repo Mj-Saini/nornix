@@ -78,7 +78,7 @@ const ScrollAnimation = () => {
 
   return (
     <div ref={containerRef} className="w-full custom_container">
-      <h2 className="text-3xl md:text-4xl lg:text-5xl text-white relative z-[20]">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-white relative z-[2]">
         Services
       </h2>
       {servicesData.map((value, index) => (
