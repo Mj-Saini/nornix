@@ -27,7 +27,7 @@ const ScrollAnimation = () => {
               ? "bottom bottom"
               : `top+=${section.offsetHeight} top`,
             pin: true,
-            pinSpacing: true,
+            pinSpacing: false,
             scrub: 1,
           },
         });
