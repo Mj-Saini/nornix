@@ -22,7 +22,7 @@ const ScrollAnimation = () => {
         gsap.to(section, {
           scrollTrigger: {
             trigger: section,
-            start: "top top",
+            start: "top 15%",
             end: isLastSection
               ? "bottom bottom"
               : `top+=${section.offsetHeight} top`,
@@ -50,7 +50,7 @@ const ScrollAnimation = () => {
         gsap.to(section, {
           scrollTrigger: {
             trigger: section,
-            start: "top 20%",
+            start: "top 3%",
             end: isLastSection
               ? "bottom top"
               : `top+=${section.offsetHeight} top`,
@@ -63,8 +63,8 @@ const ScrollAnimation = () => {
         if (nextSection) {
           ScrollTrigger.create({
             trigger: nextSection,
-            start: "top 80%",
-            onEnter: () => gsap.to(section, { opacity: 1, duration: 0.5 }),
+            start: "top 20%",
+            onEnter: () => gsap.to(section, { opacity: 0, duration: 0.5 }),
             onLeaveBack: () => gsap.to(section, { opacity: 1, duration: 0.5 }),
           });
         }
@@ -82,17 +82,17 @@ const ScrollAnimation = () => {
       {servicesData.map((value, index) => (
         <div key={index} className="overflow-hidden">
           <section
-            className="pinned-section flex flex-col items-center justify-center relative 
+            className="pinned-section flex flex-col items-center justify-center relative bg-[#0C0C0C]
            h-[80vh] sm:h-screen mt-5 md:mt-10 xl:mt-20"
           >
             {/* 🔹 Image with Scale Effect */}
             <img
-              className="w-full h-[55%] sm:h-auto rounded-[37px]"
+              className="w-full h-[55%] sm:h-[80%] rounded-[30px]"
               src={value.img}
               alt="service-img"
             />
 
-            <div className="content-overlay absolute bottom-[120px] sm:bottom-[180px] md:bottom-[155px] left-0 w-full h-full flex items-end justify-center z-10">
+            <div className="content-overlay absolute bottom-[150px] sm:bottom-[180px] md:bottom-[155px] left-0 w-full h-full flex items-end justify-center z-10">
               <div className="text-center">
                 <h2 className="ff_mocrosoft font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white ff_assistant">
                   {value.agentProcess}
@@ -115,7 +115,7 @@ const ScrollAnimation = () => {
               </div>
             </div>
 
-            <p className="text-base md:text-2xl font-light max-w-[810px] mx-auto py-4 md:py-10 text-center text-white z-20 bg-[#0C0C0C] ff_assistant">
+            <p className="text-base md:text-2xl font-light max-w-[810px] mx-auto py-4 md:py-6 xl:py-10 text-center text-white z-20 bg-[#0C0C0C] ff_assistant">
               {value.about}
             </p>
           </section>
