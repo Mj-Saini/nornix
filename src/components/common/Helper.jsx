@@ -12,16 +12,20 @@ export const headerData = [
   },
 
   {
-    tabs: "About",
-    path: "/about",
+    tabs: "What We Offer",
+    path: "/what-we-offer",
   },
   {
-    tabs: "Services",
-    path: "/services",
+    tabs: "Examples of Ai Agents",
+    path: "/examples-of-ai-agents",
   },
   {
-    tabs: "contact us",
-    path: "/contacts-us",
+    tabs: "For Whom",
+    path: "/for-whom",
+  },
+  {
+    tabs: "Benefits",
+    path: "/benefits",
   },
 ];
 

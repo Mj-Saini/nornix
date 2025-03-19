@@ -17,28 +17,34 @@ const Footer = () => {
           </div>
           <div className="w-full lg:w-8/12 mt-6 lg:mt-0">
             <div className="flex flex-wrap justify-between">
-              <div className="w-4/12 sm:w-2/12 sm:px-2.5">
+              <div className="w-4/12 sm:w-3/12 sm:px-2.5">
                 <h3 className="font-normal text-base text-[#E0E0E0] ff_assistant">
                   Navigation
                 </h3>
                 <div className="flex flex-col gap-2 md:gap-5 mt-2 md:mt-5">
                   <Link
-                    to={"/"}
+                    to={"/what-we-offer"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
-                    About Us
+                   What We Offer
                   </Link>
                   <Link
-                    to={"/"}
+                    to={"/examples-of-ai-agents"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
-                    Services
+                    Examples of Ai Agents
                   </Link>
                   <Link
-                    to={"/"}
+                    to={"/for-whom"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
-                    Contact
+                    For Whom
+                  </Link>
+                  <Link
+                    to={"/benefits"}
+                    className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
+                  >
+                   Benefits
                   </Link>
                 </div>
               </div>
