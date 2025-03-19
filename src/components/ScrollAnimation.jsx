@@ -50,7 +50,7 @@ const ScrollAnimation = () => {
         gsap.to(section, {
           scrollTrigger: {
             trigger: section,
-            start: "top top",
+            start: "top 20%",
             end: isLastSection
               ? "bottom top"
               : `top+=${section.offsetHeight} top`,
@@ -83,7 +83,7 @@ const ScrollAnimation = () => {
         <div key={index} className="overflow-hidden">
           <section
             className="pinned-section flex flex-col items-center justify-center relative 
-           h-[70vh] sm:h-screen mt-2 md:mt-10 xl:mt-20"
+           h-[80vh] sm:h-screen mt-5 md:mt-10 xl:mt-20"
           >
             {/* 🔹 Image with Scale Effect */}
             <img
