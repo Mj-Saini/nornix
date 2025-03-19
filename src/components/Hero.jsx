@@ -29,7 +29,7 @@ const Hero = () => {
                 Future of Personalized Artificial{" "}
                 <span className="text-[#09C9EF]">Intelligence</span>
               </h1>
-              <div className="mt-10 absolute bottom-0 mb-5 md:mb-0 lg:mb-8 max-xl:mb-10 ">
+              <div className="mt-10 absolute bottom-0 sm:mb-5 md:mb-0 lg:mb-8 xl:mb-0">
                 <CommonBtn btnName="Get Started" />
               </div>
             </div>
