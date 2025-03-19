@@ -34,7 +34,7 @@ const Header = () => {
           </Link>
           <div
             className={` flex gap-5 xl:gap-[70px] max-lg:fixed top-0 max-lg:h-screen max-lg:w-screen max-lg:items-center max-lg:justify-center flex-col lg:flex-row bg-black lg:bg-transparent duration-300 ${
-              !toggleNav ? "-left-[100vw]" : "left-0"
+              !toggleNav ? "!-left-[100vw]" : "left-0"
             }`}
           >
             {headerData.map((tab, index) => (
@@ -48,6 +48,7 @@ const Header = () => {
                     if (targetSection) {
                       targetSection.scrollIntoView({ behavior: "smooth" });
                     }
+                    setToggleNav(false);
                   }}
                   to={tab.path}
                   className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 hover:text-[#09C9EF] ff_assistant ${
