@@ -15,7 +15,7 @@ import {
 
 const Benifits = () => {
   return (
-    <div id="benifits" className=" min-h-screen relative overflow-clip flex">
+    <div id="benefits" className=" min-h-screen relative overflow-clip flex">
       <span className="absolute flex rounded-[50%] w-full h-full bg-[#09c9ef27]  blur-[500px] top-0 z-0"></span>
 
       <div className="custom_container px-3 mx-auto relative grow">

@@ -17,7 +17,10 @@ const LandingPage = () => {
     <div>
       <Header />
       <Hero />
-      <section className="py-12 md:py-14 lg:py-16 mt-6 lg:mt-14">
+      <section
+        id="what-we-offer"
+        className="py-12 md:py-14 lg:py-16 mt-6 lg:mt-14"
+      >
         <div className="custom_container">
           <div className="flex flex-wrap justify-between">
             <div className="w-full lg:w-4/12">
@@ -63,7 +66,7 @@ const LandingPage = () => {
 
       {/* OUR PLATFORM */}
 
-      <section className="py-12 md:py-14">
+      <section id="for-whom" className="py-12 md:py-14">
         <div className="custom_container">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-white">
             Who Our Platform Is For

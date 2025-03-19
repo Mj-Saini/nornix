@@ -40,6 +40,15 @@ const Header = () => {
             {headerData.map((tab, index) => (
               <div key={index} className="relative">
                 <Link
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const targetSection = document.getElementById(
+                      tab.path.replace("#", "")
+                    );
+                    if (targetSection) {
+                      targetSection.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
                   to={tab.path}
                   className={`font-light text-lg capitalize flex items-center gap-3 justify-between duration-300 hover:text-[#09C9EF] ff_assistant ${
                     location.pathname === tab.path

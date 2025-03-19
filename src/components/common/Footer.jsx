@@ -23,28 +23,56 @@ const Footer = () => {
                 </h3>
                 <div className="flex flex-col gap-2 md:gap-5 mt-2 md:mt-5">
                   <Link
-                    to={"/what-we-offer"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const section = document.getElementById("what-we-offer");
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    to={"#what-we-offer"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
-                   What We Offer
+                    What We Offer
                   </Link>
                   <Link
-                    to={"/examples-of-ai-agents"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const section = document.getElementById("ai-agents");
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    to={"#ai-agents"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     Examples of Ai Agents
                   </Link>
                   <Link
-                    to={"/for-whom"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const section = document.getElementById("for-whom");
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    to={"#for-whom"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
                     For Whom
                   </Link>
                   <Link
-                    to={"/benefits"}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const section = document.getElementById("benefits");
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    to={"#benefits"}
                     className="font-normal text-sm text-[#B0B0B0] hover:text-[#09C9EF] duration-300 ff_assistant"
                   >
-                   Benefits
+                    Benefits
                   </Link>
                 </div>
               </div>

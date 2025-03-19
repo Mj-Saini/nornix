@@ -8,24 +8,24 @@ import servicesImg6 from "../../assets/images/png/service-img6.png";
 export const headerData = [
   {
     tabs: "home",
-    path: "/home",
+    path: "#home",
   },
 
   {
     tabs: "What We Offer",
-    path: "/what-we-offer",
+    path: "#what-we-offer",
   },
   {
     tabs: "Examples of Ai Agents",
-    path: "/examples-of-ai-agents",
+    path: "#ai-agents",
   },
   {
     tabs: "For Whom",
-    path: "/for-whom",
+    path: "#for-whom",
   },
   {
     tabs: "Benefits",
-    path: "/benefits",
+    path: "#benefits",
   },
 ];
 
@@ -87,7 +87,6 @@ export const servicesData = [
       "Manage financial reports, detect anomalies, and optimize budgeting with AI-driven analytics and automation.",
   },
 ];
-
 
 export const weOfferedData = [
   {
