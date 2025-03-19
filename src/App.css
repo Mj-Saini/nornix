@@ -83,6 +83,10 @@ body {
     margin: 0 auto;
     margin-top: 20px;
   }
+  .pinned-section {
+    will-change: transform;
+    min-height: 80dvh;
+  }
 }
 
 @media (min-width: 640px) {
@@ -162,5 +166,3 @@ body {
     grid-row: 4 / 6;
   }
 }
-
-

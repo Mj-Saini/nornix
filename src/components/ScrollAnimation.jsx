@@ -20,9 +20,10 @@ const ScrollAnimation = () => {
       if (isMobile) {
         // Mobile View Pinning + Scale-0 Effect
         gsap.to(section, {
+          overwrite: "auto",
           scrollTrigger: {
             trigger: section,
-            start: "top 15%",
+            start: "top 10%",
             end: isLastSection
               ? "bottom bottom"
               : `top+=${section.offsetHeight} top`,
@@ -92,7 +93,7 @@ const ScrollAnimation = () => {
               alt="service-img"
             />
 
-            <div className="content-overlay absolute bottom-[150px] sm:bottom-[180px] md:bottom-[155px] left-0 w-full h-full flex items-end justify-center z-10">
+            <div className="content-overlay absolute bottom-[180px] md:bottom-[155px] left-0 w-full h-full flex items-end justify-center z-10">
               <div className="text-center">
                 <h2 className="ff_mocrosoft font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white ff_assistant">
                   {value.agentProcess}
