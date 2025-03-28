@@ -122,33 +122,30 @@ export const weOfferedData = [
 ];
 export const ourPlatformData = [
   {
-    heading: "AI Agent Generation",
+    heading: "Businesses and Entrepreneurs",
     descriptions:
-      "Design and train artificial intelligence agents for various applications, from customer service to task automation.",
+      "Optimize processes with personalized AI, improving     efficiency and reducing operational costs.",
   },
   {
-    heading: "AI Agent Marketplace",
+    heading: "Developers and Innovators",
     descriptions:
-      "Publish and sell your creations to other users and businesses in a simple and profitable way.",
+      "Create and monetize your AI agents, expanding your business opportunities",
   },
   {
-    heading: "Intuitive Interface",
+    heading: "Consultants and Agencies",
     descriptions:
-      "Easy-to-use tools to develop agents without the need for advanced programming knowledge. Designed for both beginners and experts.",
+      "Intigrate AI solutions into your digital strategies and offer innovetive services to your clients.",
   },
   {
-    heading: "Total Scalability",
+    heading: "Educators and Researchers",
     descriptions:
-      "From a single agent to a fleet of virtual assistants optimized for business growth.",
+      "Experiment and develop AI solutions for academic and traninig purposes.",
   },
   {
-    heading: "Security and Privacy",
+    heading: "Online store and E-Commerce",
     descriptions:
-      "Advanced data protection protocols to ensure your creations are secure and comply with the highest standards.",
+      "Impliments intelligent assistants that enhance user experience and increase sales",
   },
-  {
-    heading: "Advanced Integrations",
-    descriptions:
-      "Connect your agents with messaging platforms, CRM, ERP, and other business systems.",
-  },
+ 
 ];
+

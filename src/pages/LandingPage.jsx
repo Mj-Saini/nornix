@@ -10,7 +10,7 @@ import GetStarted from "../components/GetStarted";
 import Footer from "../components/common/Footer";
 import Benifits from "../components/Benifits";
 import ScrollAnimation from "../components/ScrollAnimation";
-import { weOfferedData } from "../components/common/Helper";
+import { ourPlatformData, weOfferedData } from "../components/common/Helper";
 
 const LandingPage = () => {
   return (
@@ -72,7 +72,7 @@ const LandingPage = () => {
             Who Our Platform Is For
           </h2>
           <div className="flex flex-wrap justify-between">
-            {[1, 2, 3, 4, 5, 6].map((items, index) => (
+            {ourPlatformData.map((items, index) => (
               <div
                 key={index}
                 className="w-full md:w-1/2 mt-6 md:mt-12 lg:mt-20 md:px-2.5"
@@ -83,11 +83,10 @@ const LandingPage = () => {
                   </span>
                   <div className="">
                     <h2 className="ff_mocrosoft font-bold text-lg md:text-2xl text-white">
-                      Businesses and Entrepreneurs
+                      {items.heading}
                     </h2>
                     <p className="font-light ff_assistant text-base text-[#B0B0B0] mt-1 md:mt-5">
-                      Optimize processes with personalized AI, improving
-                      efficiency and reducing operational costs.
+                      {items.descriptions}
                     </p>
                   </div>
                 </div>
