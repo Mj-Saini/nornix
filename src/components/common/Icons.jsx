@@ -49,6 +49,11 @@ export const ExtensionIcon = () => {
     </svg>
   );
 };
+export const ArrowIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><path fill="currentColor" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414" /></svg>
+  );
+};
 
 export const AutomationIcon = () => {
   return (
@@ -171,7 +176,7 @@ export const BenifitsSvgBox1 = () => {
         </linearGradient>
       </defs>
       <path
-        className="!w-full"
+        className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-500"
         d="M388 30C388 13.4315 374.569 0 358 0H30C13.4315 0 0 13.4315 0 30V168C0 184.569 13.4315 198 30 198H243C259.569 198 273 184.569 273 168V142.762C273 126.194 286.431 112.762 303 112.762H358C374.569 112.762 388 99.3308 388 82.7623V30Z"
         fill="#243033"
         stroke="url(#gradientBorder)"
@@ -229,7 +234,7 @@ export const BenifitsSvgBox2 = () => {
         stroke="transparent"
         strokeWidth="3"
         strokeDashoffset="10"
-        className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-300"
+        className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-500"
       />
     </svg>
   );
@@ -335,7 +340,7 @@ export const BenifitsSvgBox5 = () => {
         </linearGradient>
       </defs>
       <path
-        className="transition-all duration-300 group-hover:opacity-100"
+        className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-500"
         fillRule="evenodd"
         clipRule="evenodd"
         d="M388 30C388 13.4315 374.569 0 358 0H30C13.4315 0 0 13.4315 0 30V82.7623C0 99.3309 13.4315 112.762 30 112.762H85C101.569 112.762 115 126.194 115 142.762V168C115 184.569 128.431 198 145 198H254C270.569 198 284 184.569 284 168V143C284 126.431 297.431 113 314 113H358C374.569 113 388 99.5685 388 83V30Z"
@@ -387,7 +392,7 @@ export const BenifitsSvgBox4 = () => {
         </linearGradient>
       </defs>
       <path
-        className="transition-all duration-300 group-hover:opacity-100"
+        className="group-hover:stroke-[url(#gradientStroke)] transition-all duration-500"
         data-figma-bg-blur-radius="50"
         fillRule="evenodd"
         clipRule="evenodd"
